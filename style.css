@@ -1,11 +1,10 @@
 *{
     font-family: 'Work Sans';
 }
-.head-container{
+
+nav{
     margin-left: 100px;
     margin-right: 100px;
-}
-nav{
     display: flex;
     justify-content: space-between;
     
@@ -26,7 +25,13 @@ span{
     gap: 20px;
 }
 .icon{
-    width: 30px;
+    width: 50px;
+}
+h1{
+color: rgb(195, 82, 203);
+font-size: 50px;
+margin-top: 0;
+margin-bottom: 0;
 }
 .nav-form{
     display: flex;
@@ -37,4 +42,44 @@ span{
 a{
     text-decoration: none;
 }
-
+header{
+    height: 400px;
+    background-image: url(images/Group\ 14.png);
+    background-size: auto;
+    background-position-x: -200px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+}
+.header-icon{
+    width: 20px;
+}
+.header-options{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.btn-1{
+    width: 90px;
+    height: 40px;
+    color: white;
+    background-color: rgb(252, 28, 196);
+    border: 1px solid;
+    border-radius: 20px;
+}
+.btn-2{
+    width: 110px;
+    height: 40px;
+    color: white;
+    background-color: rgb(79, 216, 250);
+    border: 1px solid;
+    border-radius: 20px;
+}
+.head-contents{
+    padding-top: 40px;
+    padding-left: 100px;
+}
+.head-img{
+    width: 400px;
+    padding-right: 100px;
+}

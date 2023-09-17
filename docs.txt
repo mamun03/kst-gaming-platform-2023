@@ -2,3 +2,6 @@
 
 
 <a target="_blank" href="https://icons8.com/icon/118640/tiktok">TikTok</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+play icon:
+<img width="67" height="67" src="https://img.icons8.com/external-others-inmotus-design/67/external-Play-round-icons-others-inmotus-design-11.png" alt="external-Play-round-icons-others-inmotus-design-11"/>
