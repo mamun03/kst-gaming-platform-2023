@@ -113,3 +113,42 @@ header{
 h4{
     line-height: 0;
 }
+h5{
+    line-height: 0;
+}
+.funny-videos{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.funny-header{
+    display: grid;
+    justify-content: center;
+}
+.funny-title{
+    margin-left: 30px;
+    line-height: 5px;
+}
+
+.funny-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.funny-card{
+    width: 250px;
+
+}
+.funny-card:hover .watch-now{
+    display: flex;
+}
+
+.funny-img{
+    width: 250px;
+}
+.watch-now{
+    color: rgb(252, 28, 196);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -180px;
+}
