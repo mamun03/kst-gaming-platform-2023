@@ -1,0 +1,40 @@
+*{
+    font-family: 'Work Sans';
+}
+.head-container{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+span{
+    color: rgb(252, 28, 196);
+}
+.nav-p1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.nav-p2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.icon{
+    width: 30px;
+}
+.nav-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+}
+
