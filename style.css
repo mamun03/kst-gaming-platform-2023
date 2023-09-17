@@ -7,6 +7,7 @@ nav{
     margin-right: 100px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     
 }
 span{
@@ -27,6 +28,9 @@ span{
 .icon{
     width: 50px;
 }
+.icon-n{
+    width: 30px;
+} 
 h1{
 color: rgb(195, 82, 203);
 font-size: 50px;
@@ -62,7 +66,6 @@ header{
 .btn-1{
     width: 90px;
     height: 40px;
-    color: white;
     background-color: rgb(252, 28, 196);
     border: 1px solid;
     border-radius: 20px;
@@ -70,8 +73,14 @@ header{
 .btn-2{
     width: 110px;
     height: 40px;
-    color: white;
     background-color: rgb(79, 216, 250);
+    border: 1px solid;
+    border-radius: 20px;
+}
+.btn-3{
+    width: 110px;
+    height: 40px;
+    background-color: rgb(252, 28, 196);
     border: 1px solid;
     border-radius: 20px;
 }
@@ -82,4 +91,25 @@ header{
 .head-img{
     width: 400px;
     padding-right: 100px;
+}
+.gamer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.gamer-title{
+    color: rgb(195, 82, 203);
+    
+}
+.gamer-img{
+    padding-left: 100px;
+}
+.gamer-description{
+    padding-right: 100px;
+    width: 300px;
+    text-align: right;
+}
+h4{
+    line-height: 0;
 }
