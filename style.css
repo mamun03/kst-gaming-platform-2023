@@ -272,3 +272,112 @@ footer{
     gap: 20px;
 }
 
+@media screen and (max-width: 576px) {
+    nav{
+        flex-direction: column;
+    }
+    .nav-p1, .nav-p2, .nav-form{
+        flex-direction: column;
+    }
+    header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+    .head-img{
+        width: 300px;
+        padding: 0%;
+    }
+    .gamer{
+        flex-direction: column;
+        gap: 30px;
+        padding: 0%;
+    }
+    .gamer-img{
+        width: 300px;
+        padding: 0%;
+    }
+    .funny-cards{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .funny-title{
+        font-size: 15px;
+    }
+    .image-position{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin: 0%;
+        padding-top: 20px;
+    }
+    .positioning{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        padding: 0%;
+    }
+    .positioning-1{
+        width: 300px;
+    }
+    .positioning-2{
+        width: 100px;
+    border: 1px solid white;
+    position: relative;
+    bottom: -30px;
+    right: -80px;
+    }
+    .career-elements{
+        flex-direction: column;
+    }
+    .career-description{
+        flex-direction: column;
+    }
+    .career-words{
+        width: 300px;
+    }
+    .careers-category{
+        flex-direction: column;
+        
+    }
+    .career-groups{
+        flex-direction: column;
+    }
+    .career-zone{
+        text-align: left;
+    }
+    .career-img{
+        width: 340px;
+    }
+    .types-of-game{
+        flex-direction: column;
+        
+    }
+    .games-row1{
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 50px;
+    }
+    .games-row2{
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 50px;
+    }
+    footer{
+        height: auto;
+    }
+    .row-elements{
+        flex-direction: column;
+        gap: 2px;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
