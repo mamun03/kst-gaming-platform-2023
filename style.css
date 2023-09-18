@@ -139,9 +139,8 @@ h5{
 }
 .funny-card:hover .watch-now{
     width: 250px;
-    height: 280px;
     display: flex;
-    border: 2px solid rgb(252, 28, 196);
+
 }
 
 .funny-img{
@@ -235,6 +234,7 @@ h5{
     margin-bottom: 70px;
     margin-top: 70px;
 }
+
 .games-row1{
     display: flex;
     justify-content: center;
@@ -242,9 +242,33 @@ h5{
     gap: 30px;
     margin-bottom: 50px;
 }
-.games-row{
+.games-row2{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
 }
+.games-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+footer{
+    height: 300px;
+    background-color: black;
+}
+.footer-head{
+   padding-top: 20px; 
+}
+.footer-row{
+    color: white;
+    margin-top: 20px;
+}
+.row-elements{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
